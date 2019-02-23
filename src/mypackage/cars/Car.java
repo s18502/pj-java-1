@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.cars;
 
 public class Car {
     public String getBrand() {
@@ -38,11 +38,11 @@ public class Car {
     private int mileage;
     private double price;
 
-    Car(){
+    public Car(){
         System.out.println("constructor");
     }
 
-    Car(String brand, boolean isNew, int mileage, double price) {
+    public Car(String brand, boolean isNew, int mileage, double price) {
         this();
 
         this.brand = brand;
